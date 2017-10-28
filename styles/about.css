@@ -1,0 +1,27 @@
+.vertical-align {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-left: -5px;
+}
+
+.background-lilac {
+  background-color: #AE81FF;
+}
+
+.chapter {
+  position: relative;
+  z-index: 200;
+  background: #fff;
+}
+
+.title {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  left: 0;
+  -webkit-transition: 1s width cubic-bezier(.77,0,.175,1);
+  transition: 1s width cubic-bezier(.77,0,.175,1);
+  z-index: 200;
+}

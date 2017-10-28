@@ -34,7 +34,7 @@ div {
   font-family: Arial, serif;
   font-weight: 700px;
   font-style: normal;
-  color: #e68c8c;
+  color: #AE81FF;
 }
 
 .block {
@@ -53,6 +53,7 @@ div {
 
 h2 {
   font-size: 3em;
+  color: #AE81FF;
 }
 
 h1 {
