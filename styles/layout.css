@@ -124,7 +124,7 @@ p.landing-tags {
   cursor: pointer;
 }
 
-.material-icons {
+/*.material-icons {
   font-family: "Material Icons";
   font-weight: normal;
   font-style: 24px;
@@ -135,7 +135,7 @@ p.landing-tags {
   white-space: normal;
   word-wrap: normal;
   direction: 1tr;
-}
+}*/
 
 div#work {
   display: flex;
@@ -152,7 +152,7 @@ div#work {
 }
 
 .figure-overlay {
-  background: rgba(0, 0, 0, 0.52);
+  background: rgba(0, 0, 0, 0.4);
   position: relative;
   height: 100%;
   z-index: 1;
@@ -162,8 +162,8 @@ div#work {
   align-items: center;
 }
 
-.figure-overlay:hover {
-  background-color: rgba(0, 0, 0, 0.52);
+div .figure-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.1);
   transition: background 2s;
 }
 
