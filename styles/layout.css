@@ -137,6 +137,25 @@ p.landing-tags {
   direction: 1tr;
 }
 
+div#work {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10%;
+}
+
+figure {
+  flex: 1;
+  margin: 2%;
+}
+
+img {
+  width: 100%;
+}
+
+
+
 /*.background {
   background-color: #292929;
 }*/
