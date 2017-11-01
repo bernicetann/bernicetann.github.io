@@ -8,49 +8,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <!-- CSS -->
     <link type="text/css" rel="stylesheet" href="styles/layout.css">
-    <link type="text/css" rel="stylesheet" href="styles/about.css">
+    <!-- <link type="text/css" rel="stylesheet" href="styles/about.css"> -->
+
   </head>
   <body>
-    <div class="site-wrapper">
-      <div class="main-site-fullpage">
-        <section class="fullpage-section block block-2 background" data-viewport-height="100">
-          <h2 class="text name">BERNICE TAN</h2>
-          <h1 class="text block-title"><span style="color: orange">WEB</span> <span style="color: #F92672">DEVELOPER</span><span style="color: white">(</span><span style="color: #66D9EF">lovesToCode</span><span style="color: white">)</span><span style="color: white">{}</span></h1>
+
+    <div id="container">
+      <div id="header">
+        <div class="overlay header-background-image">
+          <div id="header-info">
+            <p class="landing-intro">Developer</p>
+            <span></span>
+            <p class="landing-tags">hiking, chicken, board games, citrus</p>
+          </div>
+
+          <i class="material-icons">keyboard_arrow_down</i>
+
+        </div>
+
           <nav class="text main-nav">
+            <div>
+              <p>Bernice Tan</p>
+            </div>
             <ul>
               <li>
                 <a href="#aboutme">ABOUT</a>
               </li>
               <li>
-                <a href="work">WORK</a>
+                <a href="#work">WORK</a>
               </li>
               <li>
-                <a href="contact">CONTACT</a>
+                <a href="#contact">CONTACT</a>
               </li>
             </ul>
           </nav>
-        </section>
-        <section id="about" class="fullpage-section block chapter" data-viewport-min-height="100" style="min-height: 732px;">
-          <div class="chapter-title fixed">
-            <div class="vertical-align left-side background-lilac">
-              <h1><a name="aboutme">ABOUT ME</a></h1>
-            </div>
-          </div>
-          <div class="content"></div>
-        </section>
-        <section id="work">
-          <div class="title"></div>
-            <h1><a name="work">WORK</a></h1>
-          <div class="content"></div>
-        </section>
-        <section id="contact">
-          <div class="title"></div>
-            <h1><a name="contact">CONTACT</a></h1>
-          <div class="content"></div>
-        </section>
       </div>
+      <div id="work">
+        <figure>
+          <img src="styles/tweet-homepage.png"/>
+        </figure>
+        <figure>
+          <img src="styles/Sold-out-badge.png"/>
+        </figure>
+        <figure>
+          <img src="styles/Posted-image.png"/>
+        </figure>
+        <figure></figure>
+
+      </div>
+      <div id="about"></div>
+      <div id="contact"></div>
+      <footer></footer>
     </div>
-    <footer>
-    </footer>
+<!--
+    <h2 class="text name">BERNICE TAN</h2>
+    <h1 class="text block-title"><span style="color: orange">WEB</span> <span style="color: #F92672">DEVELOPER</span><span style="color: white">(</span><span style="color: #66D9EF">lovesToCode</span><span style="color: white">)</span><span style="color: white">{}</span></h1> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javasript" src="scripts/index.js"></script>
   </body>
 </html>
