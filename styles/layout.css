@@ -145,15 +145,27 @@ div#work {
   margin-top: 10%;
 }
 
-figure {
+.figure {
   flex: 1;
   margin: 2%;
+  height: 300px;
 }
 
-img {
-  width: 100%;
+.figure-overlay {
+  background: rgba(0, 0, 0, 0.52);
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.figure-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.52);
+  transition: background 2s;
+}
 
 
 /*.background {
