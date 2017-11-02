@@ -8,10 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <!-- CSS -->
     <link type="text/css" rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link type="text/css" rel="stylesheet" href="styles/about.css"> -->
 
   </head>
   <body>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="scripts/index.js"></script>
 
     <div id="container">
       <div id="header">
@@ -22,23 +26,23 @@
             <p class="landing-tags">hiking, chicken, board games, citrus</p>
           </div>
 
-          <i class="material-icons">keyboard_arrow_down</i>
+          <i class="material-icons card">keyboard_arrow_down</i>
 
         </div>
 
           <nav class="text main-nav">
             <div>
-              <p>Bernice Tan</p>
+              <p>B e r n i c e T a n</p>
             </div>
             <ul>
               <li>
-                <a href="#aboutme">ABOUT</a>
+                <a href="#about">A B O U T</a>
               </li>
               <li>
-                <a href="#work">WORK</a>
+                <a href="#work">W O R K</a>
               </li>
               <li>
-                <a href="#contact">CONTACT</a>
+                <a href="#contact">C O N T A C T</a>
               </li>
             </ul>
           </nav>
@@ -63,29 +67,30 @@
             <p>Chatty App</p>
           </div>
         </div>
-      <!--   <figure>
-          <img src="styles/tweet-homepage.png"/>
-          <figcaption>Tweeter clone</figcaption>
-        </figure>
-        <figure>
-          <img src="styles/Sold-out-badge.png"/>
-          <figcaption>E-commerce clone</figcaption>
-        </figure>
-        <figure>
-          <img src="styles/Posted-image.png"/>
-          <figcaption>Chat box clone</figcaption>
-        </figure> -->
+
       </div>
 
-      <div id="about"></div>
-      <div id="contact"></div>
+      <div id="about">
+        <div>
+          <ul id="about-ul">
+          </ul>
+        </div>
+        <div id ="user-pic">
+          <div class="card" style="background-image: url('styles/Bernice.jpg')"></div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-github" aria-hidden="true"></i>
+        <!-- <i class="fa fa-envelope card" aria-hidden="true"></i> -->
+      </div>
       <footer></footer>
     </div>
 <!--
     <h2 class="text name">BERNICE TAN</h2>
     <h1 class="text block-title"><span style="color: orange">WEB</span> <span style="color: #F92672">DEVELOPER</span><span style="color: white">(</span><span style="color: #66D9EF">lovesToCode</span><span style="color: white">)</span><span style="color: white">{}</span></h1> -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javasript" src="scripts/index.js"></script>
   </body>
 </html>
