@@ -1,0 +1,5 @@
+@media (max-width:800px) {
+  #about-ul, #user-pic {
+    width:100%; /*The width is 100%, when the viewport is 800px or smaller*/
+  }
+}

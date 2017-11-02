@@ -28,7 +28,7 @@ div#container {
 div#header {
   width: inherit;
   height: 695px;
-  background-image: url("./laptop.jpg");
+  background-image: url("./laptop2.jpg");
 }
 
 ul {
@@ -106,25 +106,29 @@ p.landing-intro {
   width: 38px;
   text-transform: uppercase;
   font-weight: 800;
-  color: grey;
+  color: #333;
+  /*color: #eee;*/
   margin: initial;
 }
 
 p.landing-tags {
   font-weight: 300;
   text-transform: capitalize;
-  color: grey;
+  color: #333;
+  /*color: #eee;*/
+  font-size: large;
 }
 
 #header-info span {
   display: inline-block;
-  border-top: 3px solid silver;
+  border-top: 3px solid #333;
   width: 40%;
 }
 
 #header-info {
   margin: auto;
-  margin-left: 46%;
+  /*margin-left: 46%;*/
+  margin-left: 9%;
 }
 
 .header-background-image i.material-icons {
@@ -236,23 +240,36 @@ div#contact {
   justify-content: center;
 }
 
-div#contact > i {
+div#contact i {
   margin: 13px;
   padding: 10px;
   color: white;
   cursor: pointer;
 }
 
-i.fa.fa-facebook {
-  color: aqua;
+i.fa.fa-linkedin:before {
+  color: #007bb6;
+  font-size: 1.5em;
 }
 
-i.fa.fa-linkedin {
-  color: black;
+i.fa.fa-facebook:before {
+  color: #3B5998;
+  font-size: 1.5em;
 }
 
-i.fa.fa-github {
-  color: crimson;
+i.fa.fa-github:before {
+  color: #333;
+  font-size: 1.5em;
+}
+
+footer {
+  width: 100%;
+  height: 13em;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 /*.background {
